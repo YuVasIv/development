@@ -5,6 +5,7 @@
   [order_amount] [decimal](10, 2) NULL,
   [order_status] [varchar](50) NULL,
   [shipping_address] [varchar](255) NULL,
+  [payment_method] [varchar](80) NULL,
   PRIMARY KEY CLUSTERED ([order_id])
 )
 ON [PRIMARY]
