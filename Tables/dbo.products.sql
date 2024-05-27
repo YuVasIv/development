@@ -3,6 +3,7 @@
   [product_name] [varchar](100) NULL,
   [price] [decimal](10, 2) NULL,
   [qty] [int] NULL,
+  [stock] [int] NULL,
   PRIMARY KEY CLUSTERED ([product_id])
 )
 ON [PRIMARY]
