@@ -4,7 +4,8 @@
   [email] [varchar](100) NULL,
   [phone] [varchar](20) NULL,
   [address] [varchar](255) NULL,
-  [location] [varchar](50) NULL,
+  [city] [varchar](50) NULL,
+  [orders] [varchar](50) NULL,
   PRIMARY KEY CLUSTERED ([customer_id])
 )
 ON [PRIMARY]
