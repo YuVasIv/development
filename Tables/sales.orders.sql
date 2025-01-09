@@ -13,10 +13,6 @@ ON [PRIMARY]
 GO
 
 ALTER TABLE [sales].[orders]
-  ADD CONSTRAINT [FK_orders_customers] FOREIGN KEY ([customer_id]) REFERENCES [sales].[customers] ([customer_id]) ON DELETE CASCADE ON UPDATE CASCADE
-GO
-
-ALTER TABLE [sales].[orders]
   ADD CONSTRAINT [FK_orders_staffs] FOREIGN KEY ([staff_id]) REFERENCES [sales].[staffs] ([staff_id])
 GO
 
